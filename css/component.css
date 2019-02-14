@@ -35,6 +35,7 @@
 
 .grid figcaption h1 {
 	font-size: 1.6rem;
+	letter-spacing: 6px;
 	line-height: 2.2rem;
 	margin: 0;
 	padding-bottom: 12px;
@@ -122,6 +123,14 @@
 	position: absolute;
 	bottom: 20px;
 	right: 20px;
+}
+
+.project-ss {
+	border: 1px solid #304352;
+}
+
+.live-link {
+	margin-right: 70px;
 }
 
 @media (max-width: 980px) {
