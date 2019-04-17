@@ -58,7 +58,7 @@ h3 {
 
 p {
   color: #888;
-  font-size: 20px;
+  font-size: 27px;
   letter-spacing: 1px;
   line-height: 34px;
 }
@@ -456,7 +456,18 @@ a:hover, a:active, a:focus {
   color: #ffffff;
 }
 
+.skill-icons {
+  font-size: 100px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  width: 1170px;
+}
 
+.skill-icons i {
+  padding-right: 20px;
+  padding-bottom: 20px;
+}
 
 /*---------------------------------------
     Galllery section              
