@@ -464,6 +464,7 @@ a:hover, a:active, a:focus {
   justify-content: space-evenly;
   width: 1170px;
   margin: 0 auto;
+  overflow: scroll;
 }
 
 .skill-icons i {
