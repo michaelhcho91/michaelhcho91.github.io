@@ -369,6 +369,7 @@ a:hover, a:active, a:focus {
 
 #about {
   background: #f0f0f0;
+  margin: 0 auto;
 }
 
 #about .item {
@@ -462,6 +463,7 @@ a:hover, a:active, a:focus {
   flex-wrap: wrap;
   justify-content: space-evenly;
   width: 1170px;
+  margin: 0 auto;
 }
 
 .skill-icons i {
@@ -631,7 +633,6 @@ footer {
   #about .team-thumb {
     margin-top: 32px;
   }
-
 }
 
 
@@ -652,9 +653,7 @@ footer {
     top: 0;
     left: 0;
   }
-
 }
-
 
 
 @media (max-width: 650px) {
@@ -677,9 +676,29 @@ footer {
     padding-top: 80px;
     padding-bottom: 80px;
   }
-
 }
 
 
+@media (max-width: 1088px) {
+  .skill-icons {
+    width: 840px;
+  }
+}
 
+@media (max-width: 920px) {
+  .skill-icons {
+    width: 672px;
+  }
+}
 
+@media (max-width: 752px) {
+  .skill-icons {
+    width: 504px;
+  }
+}
+
+@media (max-width: 584px) {
+  .skill-icons {
+    width: 336px;
+  }
+}
