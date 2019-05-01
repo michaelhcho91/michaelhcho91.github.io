@@ -683,23 +683,27 @@ footer {
 @media (max-width: 1088px) {
   .skill-icons {
     width: 840px;
+    transition: all 0.5s;
   }
 }
 
 @media (max-width: 920px) {
   .skill-icons {
     width: 672px;
+    transition: all 0.5s;
   }
 }
 
 @media (max-width: 752px) {
   .skill-icons {
     width: 504px;
+    transition: all 0.5s;
   }
 }
 
 @media only screen and (max-device-width: 584px) {
   .skill-icons {
     width: 336px;
+    transition: all 0.5s;
   }
 }
