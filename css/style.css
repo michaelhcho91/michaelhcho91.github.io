@@ -698,7 +698,7 @@ footer {
   }
 }
 
-@media (max-width: 584px) {
+@media only screen and (max-device-width: 584px) {
   .skill-icons {
     width: 336px;
   }
