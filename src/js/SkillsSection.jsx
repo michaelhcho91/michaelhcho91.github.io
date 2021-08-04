@@ -24,8 +24,8 @@ const SkillsSection = () => {
   };
 
   return (
-    <section className="skills-container">
-      <div className="skills-section auto-width">
+    <section className="skills container">
+      <div className="section auto-width">
         <h1>My Favorite Tools</h1>
         {renderSkillIcon(skills.favoritesIcons)}
         <h1>Also Enjoy Developing With</h1>

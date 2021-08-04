@@ -51,3 +51,12 @@ $xx-large: 1400px;
 .hidden-md {
   @include for-md { display: none; }
 }
+
+.container {
+  display: flex;
+  justify-content: center;
+}
+
+.section {
+  padding: 15px;
+}

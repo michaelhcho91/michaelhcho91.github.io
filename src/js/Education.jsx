@@ -19,8 +19,8 @@ const Education = () => {
   };
 
   return (
-    <section className="education-container">
-      <div className="education-section auto-width">
+    <section className="education container">
+      <div className="section auto-width">
         <h1>My Education</h1>
         {renderEducation()}
       </div>

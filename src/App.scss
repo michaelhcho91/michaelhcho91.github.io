@@ -2,10 +2,11 @@
 @import "./styles/Header.scss";
 @import "./styles/SkillsSection.scss";
 @import "./styles/SkillIcon.scss";
-@import "./styles/WorkHistory.scss";
 @import "./styles/WorkItem.scss";
-@import "./styles/Education.scss";
 @import "./styles/School.scss";
+@import "./styles/IconLabel.scss";
+@import "./styles/Logo.scss";
+@import "./styles/Item.scss";
 
 .App {
   background: #304352;
@@ -23,7 +24,7 @@
     list-style-type: none;
     margin: 0;
 
-    @include for-sm {
+    @include for-md {
       padding: 0 15px;
     }
   }

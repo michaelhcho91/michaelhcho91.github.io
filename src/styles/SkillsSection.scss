@@ -1,13 +1,8 @@
-.skills-container {
-  display: flex;
-  justify-content: center;
-
-  .skills-section {
-    padding: 15px;
-
+.skills {
+  .section {
     .skills-list {
       display: flex;
       flex-flow: row wrap;
     }
-  } // .skills-section
-} // .skills-container
+  } // .section
+} // .skills

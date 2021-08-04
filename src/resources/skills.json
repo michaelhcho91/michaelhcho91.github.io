@@ -22,6 +22,7 @@
     { "label": "Heroku", "icon": "heroku-original" },
     { "label": "Jenkins", "icon": "jenkins-plain" },
     { "label": "Jest", "icon": "jest-plain" },
+    { "label": "jQuery", "icon": "jquery-plain" },
     { "label": "NodeJS", "icon": "nodejs-plain" },
     { "label": "PostgreSQL", "icon": "postgresql-plain" },
     { "label": "Rails", "icon": "rails-plain" },
@@ -30,7 +31,6 @@
     { "label": "Slack", "icon": "slack-plain" },
     { "label": "Trello", "icon": "trello-plain" },
     { "label": "WebPack", "icon": "webpack-plain" },
-    { "label": "WordPress", "icon": "wordpress-plain" },
-    { "label": "jQuery", "icon": "jquery-plain" }
+    { "label": "WordPress", "icon": "wordpress-plain" }
   ]
 }

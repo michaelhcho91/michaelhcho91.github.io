@@ -1,0 +1,19 @@
+.icon-label {
+  display: flex;
+  margin: 4px 0;
+
+  .fa {
+    display: flex;
+    justify-content: center;
+    margin-right: 8px;
+    width: 16px;
+  } // .fa
+
+  &:hover {
+    color: #e44c65;
+  }
+
+  &:first-child {
+    font-style: italic;
+  }
+} // .detail-item

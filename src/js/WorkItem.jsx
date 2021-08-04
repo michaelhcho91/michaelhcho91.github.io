@@ -1,6 +1,7 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import { getLogoPath } from './utils';
+import Logo from './Logo';
+import IconLabel from './IconLabel';
 
 const propTypes = {
   item: PropTypes.shape({
@@ -16,27 +17,17 @@ const propTypes = {
 
 const WorkItem = ({ item }) => {
   const { company, logo, start, end, location, position, keyPoints } = item;
-
-  const renderIconLabel = (icon, label) => {
-    return (
-      <div className="detail-item">
-        <i className={`fa fa-${icon}`} />
-        <span>{label}</span>
-      </div>
-    );
-  };
-
   const dateLabel = (end) ? (`${start} - ${end}`) : (`${start} - Present`);
 
   return (
-    <li className="work-item">
-      <img className="logo" loading="lazy" src={getLogoPath(logo)} alt={company} />
+    <li className="work item">
+      <Logo logo={logo} alt={company} />
 
-      <div className="work-details">
-        {renderIconLabel('user', position)}
-        {renderIconLabel('building', company)}
-        {renderIconLabel('map-marker', location)}
-        {renderIconLabel('calendar', dateLabel)}
+      <div className="details">
+        <IconLabel icon="user" label={position} />
+        <IconLabel icon="building" label={company} />
+        <IconLabel icon="map-marker" label={location} />
+        <IconLabel icon="calendar" label={dateLabel} />
       </div>
 
       <ul className="key-points">

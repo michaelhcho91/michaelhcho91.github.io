@@ -19,8 +19,8 @@ const WorkHistory = () => {
   };
   
   return (
-    <section className="work-container">
-      <div className="work-history auto-width">
+    <section className="work container">
+      <div className="section auto-width">
         <h1>My Work Experience</h1>
         {renderWorkHistory()}
       </div>
