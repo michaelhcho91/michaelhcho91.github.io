@@ -1,0 +1,54 @@
+[
+  {
+    "company": "Gartner",
+    "logo": "gpi",
+    "start": "August 2019",
+    "end": null,
+    "location": "Stamford, CT",
+    "position": "Software Engineer",
+    "keyPoints": [
+      "Strong focus on front end web technologies including React, JavaScript, HTML5, Node, Webpack, WordPress, CSS3, and Sass.",
+      "Work in an agile environment closely with product owners, designers, and fellow developers.",
+      "Main efforts go into improving end user experience, increasing traffic through search engine optimization, and acquiring new users through various experiences on Peer Insights."
+    ]
+  },
+  {
+    "company": "App Academy",
+    "logo": "aa",
+    "start": "May 2019",
+    "end": "August 2019",
+    "location": "Manhattan, NY",
+    "position": "Software Engineer Technical Instructor",
+    "keyPoints": [
+      "Conducted rigorous technical screens of applicants to assess algorithmic aptitude and logical thinking in JavaScript, Ruby, Python, and Java.",
+      "Evaluated applicants' pair programming abilities, problem solving strategies, and performance under pressure."
+    ]
+  },
+  {
+    "company": "Alley Pond Environmental Center",
+    "logo": "apec",
+    "start": "July 2018",
+    "end": "September 2018",
+    "location": "Oakland Gardens, NY",
+    "position": "Volunteer",
+    "keyPoints": [
+      "Cared for various species of rabbits, snakes, birds, turtles, chinchillas, and lizards.",
+      "Demostrated proper animal handling to visitors of all ages from toddlers to adults.",
+      "Supervised all interactions between visitors and animals.",
+      "Maintained hiking and wildlife touring trails in Alley Pond Park."
+    ]
+  },
+  {
+    "company": "Paris Baguette America, Inc",
+    "logo": "pb",
+    "start": "March 2012",
+    "end": "July 2014",
+    "location": "Flushing, NY",
+    "position": "Assistant Manager",
+    "keyPoints": [
+      "Managed day to day business operations and interactions between employees and customers.",
+      "Supervised all employees and enforced safe practices in the work environment.",
+      "Monitored business data analytics such as budget, profit/loss, and stock maintenance."
+    ]
+  }
+]

@@ -1,0 +1,36 @@
+{
+  "favoritesIcons": [
+    { "label": "JavaScript", "icon": "javascript-plain" },
+    { "label": "React", "icon": "react-original" },
+    { "label": "HTML5", "icon": "html5-plain" },
+    { "label": "CSS3", "icon": "css3-plain" },
+    { "label": "Sass", "icon": "sass-original" },
+    { "label": "Git", "icon": "git-plain" },
+    { "label": "Visual Studio Code", "icon": "vscode-plain" },
+    { "label": "npm", "icon": "npm-original-wordmark" }
+  ],
+  "othersIcons": [
+    { "label": "Bash", "icon": "bash-plain" },
+    { "label": "Bitbucket", "icon": "bitbucket-original" },
+    { "label": "Bootstrap", "icon": "bootstrap-plain" },
+    { "label": "Chrome", "icon": "chrome-plain" },
+    { "label": "Confluence", "icon": "confluence-original" },
+    { "label": "Docker", "icon": "docker-plain" },
+    { "label": "Firefox", "icon": "firefox-plain" },
+    { "label": "GitHub", "icon": "github-original" },
+    { "label": "Gulp", "icon": "gulp-plain" },
+    { "label": "Heroku", "icon": "heroku-original" },
+    { "label": "Jenkins", "icon": "jenkins-plain" },
+    { "label": "Jest", "icon": "jest-plain" },
+    { "label": "NodeJS", "icon": "nodejs-plain" },
+    { "label": "PostgreSQL", "icon": "postgresql-plain" },
+    { "label": "Rails", "icon": "rails-plain" },
+    { "label": "Redux", "icon": "redux-original" },
+    { "label": "Ruby", "icon": "ruby-plain" },
+    { "label": "Slack", "icon": "slack-plain" },
+    { "label": "Trello", "icon": "trello-plain" },
+    { "label": "WebPack", "icon": "webpack-plain" },
+    { "label": "WordPress", "icon": "wordpress-plain" },
+    { "label": "jQuery", "icon": "jquery-plain" }
+  ]
+}
