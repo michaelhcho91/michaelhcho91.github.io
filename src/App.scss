@@ -5,11 +5,11 @@
 @import "./styles/WorkHistory.scss";
 @import "./styles/WorkItem.scss";
 @import "./styles/Education.scss";
+@import "./styles/School.scss";
 
 .App {
   background: #304352;
   opacity: 0.9;
-  height: 1000vh;
 
   h1 {
     color: #e44c65;
@@ -22,5 +22,9 @@
   ul {
     list-style-type: none;
     margin: 0;
+
+    @include for-sm {
+      padding: 0 15px;
+    }
   }
 } // .App

@@ -1,4 +1,5 @@
 import React from 'react';
+import School from './School';
 import education from '../resources/education.json';
 
 const Education = () => {
@@ -7,9 +8,10 @@ const Education = () => {
       <ul>
         {education.map(item => {
           return (
-            <li key={item.school}>
-              {item.school}
-            </li>
+            <School
+              key={item.school}
+              item={item}
+            />
           );
         })}
       </ul>

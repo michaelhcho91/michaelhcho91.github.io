@@ -1,11 +1,11 @@
-.work-item {
+.school {
   color: white;
   display: flex;
   align-items: center;
   padding: 15px 0;
 
   .logo {
-    flex: .5;
+    // flex: .5;
     background: white;
     border-radius: 100%;
     border: 3px solid #e44c65;
@@ -14,7 +14,7 @@
     height: 100px;
   } // .logo
 
-  .work-details {
+  .school-details {
     flex: 2;
     display: flex;
     flex-direction: column;
@@ -41,31 +41,7 @@
     } // .detail-item
   } // .work-details
 
-  .key-points {
-    flex: 4;
-    list-style-type: disc;
-    padding-inline-start: 25px;
-
-    li {
-      padding: 4px 0;
-
-      &:hover {
-        color: #e44c65;
-      }
-    }
-  } // .key-points
-
   &:not(:last-child) {
     border-bottom: 1px solid #f0f0f0;
   }
-
-  @include for-md {
-    flex-flow: row wrap;
-
-    .key-points {
-      flex: unset;
-      width: 100%;
-      margin-top: 12px;
-    }
-  }
-} // .work-item
+} // .school

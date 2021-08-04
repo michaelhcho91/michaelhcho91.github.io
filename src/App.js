@@ -3,7 +3,7 @@ import './App.scss';
 import Header from './js/Header';
 import SkillsSection from './js/SkillsSection';
 import WorkHistory from './js/WorkHistory';
-// import Education from './js/Education';
+import Education from './js/Education';
 
 const App = () => {
   return (
@@ -11,7 +11,7 @@ const App = () => {
       <Header />
       <SkillsSection />
       <WorkHistory />
-      {/* <Education /> */}
+      <Education />
     </div>
   );
 };
