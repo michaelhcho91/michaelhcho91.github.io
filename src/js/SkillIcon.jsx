@@ -6,12 +6,14 @@ const propTypes = {
   icon: PropTypes.string
 };
 
+const TIME_TO_COMPLETE = 2000;
+
 const SkillIcon = ({ label, icon }) => {
   const [displayLabel, setDisplayLabel] = useState('');
 
   useEffect(() => {
     const { length } = displayLabel;
-    const timeout = 2000 / label.length;
+    const timeout = TIME_TO_COMPLETE / label.length;
 
     setTimeout(() => {
       if (length !== label.length) {

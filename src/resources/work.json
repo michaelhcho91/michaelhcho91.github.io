@@ -50,5 +50,18 @@
       "Supervised all employees and enforced safe practices in the work environment.",
       "Monitored business data analytics such as budget, profit/loss, and stock maintenance."
     ]
+  },
+  {
+    "company": "CityMD Urgent Care",
+    "logo": "cmd",
+    "start": "October 2012",
+    "end": "December 2012",
+    "location": "Manhattan, NY",
+    "position": "Patient Care Representative",
+    "keyPoints": [
+      "Handled registration and discharge of patients to ensure they felt welcome and prioritized.",
+      "Coordinated with insurance companies for optimal patient healthcare.",
+      "Maintained a safe and sanitary work environment for co-workers and patients alike."
+    ]
   }
 ]

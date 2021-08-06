@@ -4,6 +4,7 @@ import Header from './js/Header';
 import SkillsSection from './js/SkillsSection';
 import WorkHistory from './js/WorkHistory';
 import Education from './js/Education';
+import Extracurricular from './js/Extracurricular';
 
 const App = () => {
   return (
@@ -12,6 +13,7 @@ const App = () => {
       <SkillsSection />
       <WorkHistory />
       <Education />
+      <Extracurricular />
     </div>
   );
 };

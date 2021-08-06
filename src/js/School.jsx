@@ -8,12 +8,13 @@ const propTypes = {
     school: PropTypes.string,
     graduated: PropTypes.string,
     description: PropTypes.string,
-    logo: PropTypes.string
+    logo: PropTypes.string,
+    attended: PropTypes.string
   })
 };
 
 const School = ({ item }) => {
-  const { school, graduated, description, logo } = item;
+  const { school, graduated, description, logo, attended } = item;
 
   return (
     <li className="school item">
@@ -21,8 +22,9 @@ const School = ({ item }) => {
 
       <div className="details">
         <IconLabel icon="university" label={school} />
-        <IconLabel icon="graduation-cap" label={graduated} />
-        <IconLabel icon="certificate" label={description} />
+        {graduated && <IconLabel icon="graduation-cap" label={graduated} />}
+        {attended && <IconLabel icon="pencil" label={attended} />}
+        {description && <IconLabel icon="certificate" label={description} />}
       </div>
     </li>
   );

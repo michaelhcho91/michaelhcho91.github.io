@@ -10,5 +10,15 @@
     "logo": "qc",
     "graduated": "May 2017",
     "description": "BA Environmental Science"
+  },
+  {
+    "school": "SUNY Stony Brook University",
+    "logo": "sbu",
+    "attended": "September 2009 - December 2011"
+  },
+  {
+    "school": "Francis Lewis High School",
+    "logo": "flhs",
+    "graduated": "May 2009"
   }
 ]
