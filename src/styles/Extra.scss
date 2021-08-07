@@ -1,0 +1,25 @@
+.extra {
+  .key-points {
+    flex: 4;
+    list-style-type: disc;
+    padding-inline-start: 25px;
+
+    li {
+      padding: 4px 0;
+
+      &:hover {
+        color: #e44c65;
+      }
+    }
+  } // .key-points
+
+  @include for-md {
+    flex-flow: row wrap;
+
+    .key-points {
+      flex: unset;
+      width: 100%;
+      margin-top: 12px;
+    }
+  }
+} // .extra
