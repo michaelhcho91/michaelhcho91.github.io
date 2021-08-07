@@ -23,7 +23,7 @@
     { "label": "Jenkins", "icon": "jenkins-plain" },
     { "label": "Jest", "icon": "jest-plain" },
     { "label": "jQuery", "icon": "jquery-plain" },
-    { "label": "NodeJS", "icon": "nodejs-plain" },
+    { "label": "Node.js", "icon": "nodejs-plain" },
     { "label": "PostgreSQL", "icon": "postgresql-plain" },
     { "label": "Rails", "icon": "rails-plain" },
     { "label": "Redux", "icon": "redux-original" },
