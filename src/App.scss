@@ -8,6 +8,8 @@
 @import "./styles/Logo.scss";
 @import "./styles/Item.scss";
 @import "./styles/Extra.scss";
+@import "./styles/Modal.scss";
+@import "./styles/CodeSnippet.scss";
 
 .App {
   background: #304352;
@@ -25,5 +27,26 @@
     list-style-type: none;
     margin: 0;
     padding: 0 15px;
+  }
+
+  mark {
+    --color1: #e44c65;
+    --color2: #e44c65;
+    --bg-height: 20%;
+      
+    all: unset;
+    background-image: linear-gradient(var(--color1), var(--color2));
+    background-position: 0 100%;
+    background-repeat: no-repeat;
+    background-size: 0 var(--bg-height);
+    animation: highlight 2s 1 ease-out;
+    animation-fill-mode: forwards;
+    animation-play-state: paused;
+  }
+
+  @keyframes highlight {
+    to {
+      background-size: 100% var(--bg-height);
+    }
   }
 } // .App

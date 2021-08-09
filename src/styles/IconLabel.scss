@@ -11,6 +11,10 @@
 
   &:hover {
     color: #e44c65;
+
+    mark {
+      background-image: linear-gradient(#304352, #304352);
+    }
   }
 
   &:first-child {

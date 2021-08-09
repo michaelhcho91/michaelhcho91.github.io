@@ -21,7 +21,7 @@ const School = ({ item }) => {
       <Logo logo={logo} alt={school} />
 
       <div className="details">
-        <IconLabel icon="university" label={school} />
+        <IconLabel icon="university" label={school} mark />
         {graduated && <IconLabel icon="graduation-cap" label={graduated} />}
         {attended && <IconLabel icon="pencil" label={attended} />}
         {description && <IconLabel icon="certificate" label={description} />}

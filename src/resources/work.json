@@ -7,9 +7,9 @@
     "location": "Stamford, CT",
     "position": "Software Engineer",
     "keyPoints": [
-      "Strong focus on front end web technologies including React, JavaScript, HTML5, Webpack, WordPress, CSS3, and Sass.",
-      "Work in an agile environment closely with product owners, designers, and fellow developers.",
-      "Main efforts go into improving end user experience, increasing traffic through search engine optimization, and acquiring new users through various experiences on Peer Insights."
+      "<mark>Strong focus on front end web technologies<mark> including React, JavaScript, HTML5, Webpack, WordPress, CSS3, and Sass.",
+      "Work in an <mark>agile environment<mark> closely with product owners, designers, and fellow developers.",
+      "Main efforts go into <mark>improving end user experience<mark>, increasing traffic through search engine optimization, and acquiring new users through various experiences on Peer Insights."
     ]
   },
   {
@@ -20,8 +20,8 @@
     "location": "Manhattan, NY",
     "position": "Software Engineer Technical Instructor",
     "keyPoints": [
-      "Conducted rigorous technical screens of applicants to assess algorithmic aptitude and logical thinking in JavaScript, Ruby, Python, and Java.",
-      "Evaluated applicants' pair programming abilities, problem solving strategies, and performance under pressure."
+      "Conducted rigorous technical screens of applicants to <mark>assess algorithmic aptitude and logical thinking<mark> in JavaScript, Ruby, Python, and Java.",
+      "Evaluated applicants' <mark>pair programming<mark> abilities, problem solving strategies, and performance under pressure."
     ]
   },
   {
@@ -32,8 +32,8 @@
     "location": "Oakland Gardens, NY",
     "position": "Volunteer",
     "keyPoints": [
-      "Cared for various species of local wildlife including rabbits, snakes, birds, turtles, chinchillas, and lizards.",
-      "Demostrated proper animal handling to visitors of all ages from toddlers to adults.",
+      "Cared for <mark>various species of local wildlife<mark> including rabbits, snakes, birds, turtles, chinchillas, and lizards.",
+      "Demostrated <mark>proper animal handling<mark> to visitors of all ages from toddlers to adults.",
       "Supervised all interactions between visitors and animals.",
       "Maintained hiking and wildlife touring trails in Alley Pond Park."
     ]
@@ -46,9 +46,9 @@
     "location": "Flushing, NY",
     "position": "Assistant Manager",
     "keyPoints": [
-      "Managed day to day business operations and interactions between employees and customers.",
-      "Supervised all employees and enforced safe practices in the work environment.",
-      "Monitored business data analytics such as budget, profit/loss, and stock maintenance."
+      "Managed day to day <mark>business operations<mark> and interactions between employees and customers.",
+      "Supervised all employees and <mark>enforced safe practices<mark> in the work environment.",
+      "Monitored <mark>business data analytics<mark> such as budget, profit/loss, and stock maintenance."
     ]
   },
   {
@@ -59,9 +59,9 @@
     "location": "Manhattan, NY",
     "position": "Patient Care Representative",
     "keyPoints": [
-      "Handled registration and discharge of patients to ensure they felt welcome and prioritized.",
-      "Coordinated with insurance companies for optimal patient healthcare.",
-      "Maintained a safe and sanitary work environment for co-workers and patients alike."
+      "Handled registration and discharge of patients to ensure they felt <mark>welcome and prioritized.<mark>",
+      "Coordinated with insurance companies for <mark>optimal patient healthcare<mark>.",
+      "Maintained a <mark>safe and sanitary<mark> work environment for patients and co-workers."
     ]
   }
 ]

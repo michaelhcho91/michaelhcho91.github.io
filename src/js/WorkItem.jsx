@@ -2,6 +2,7 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import Logo from './Logo';
 import IconLabel from './IconLabel';
+import KeyPoint from './KeyPoint';
 
 const propTypes = {
   item: PropTypes.shape({
@@ -24,7 +25,7 @@ const WorkItem = ({ item }) => {
       <Logo logo={logo} alt={company} />
 
       <div className="details">
-        <IconLabel icon="user" label={position} />
+        <IconLabel icon="user" label={position} mark />
         <IconLabel icon="building" label={company} />
         <IconLabel icon="map-marker" label={location} />
         <IconLabel icon="calendar" label={dateLabel} />
@@ -33,7 +34,10 @@ const WorkItem = ({ item }) => {
       <ul className="key-points">
         {keyPoints.map((point, idx) => {
           return (
-            <li key={idx + point[0]}>{point}</li>
+            <KeyPoint
+              key={idx + point[idx]}
+              point={point}
+            />
           );
         })}
       </ul>
