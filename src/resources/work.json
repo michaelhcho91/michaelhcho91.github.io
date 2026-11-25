@@ -1,0 +1,67 @@
+[
+  {
+    "company": "Gartner",
+    "logo": "gpi",
+    "start": "August 2019",
+    "end": "",
+    "location": "Stamford, CT",
+    "position": "Software Engineer",
+    "keyPoints": [
+      "<mark>Strong focus on front end web technologies<mark> including React, JavaScript, HTML5, Webpack, WordPress, CSS3, and Sass.",
+      "Work in an <mark>agile environment<mark> closely with product owners, designers, and fellow developers.",
+      "Main efforts go into <mark>improving end user experience<mark>, increasing traffic through search engine optimization, and acquiring new users through various experiences on Peer Insights."
+    ]
+  },
+  {
+    "company": "App Academy",
+    "logo": "aa",
+    "start": "May 2019",
+    "end": "August 2019",
+    "location": "Manhattan, NY",
+    "position": "Software Engineer Technical Instructor",
+    "keyPoints": [
+      "Conducted rigorous technical screens of applicants to <mark>assess algorithmic aptitude and logical thinking<mark> in JavaScript, Ruby, Python, and Java.",
+      "Evaluated applicants' <mark>pair programming<mark> abilities, problem solving strategies, and performance under pressure."
+    ]
+  },
+  {
+    "company": "Alley Pond Environmental Center",
+    "logo": "apec",
+    "start": "July 2018",
+    "end": "September 2018",
+    "location": "Oakland Gardens, NY",
+    "position": "Volunteer",
+    "keyPoints": [
+      "Cared for <mark>various species of local wildlife<mark> including rabbits, snakes, birds, turtles, chinchillas, and lizards.",
+      "Demonstrated <mark>proper animal handling<mark> to visitors of all ages from toddlers to adults.",
+      "Supervised all interactions between visitors and animals.",
+      "Maintained hiking and wildlife touring trails in Alley Pond Park."
+    ]
+  },
+  {
+    "company": "Paris Baguette America, Inc",
+    "logo": "pb",
+    "start": "March 2012",
+    "end": "July 2014",
+    "location": "Flushing, NY",
+    "position": "Assistant Manager",
+    "keyPoints": [
+      "Managed day to day <mark>business operations<mark> and interactions between employees and customers.",
+      "Supervised all employees and <mark>enforced safe practices<mark> in the work environment.",
+      "Monitored <mark>business data analytics<mark> such as budget, profit/loss, and stock maintenance."
+    ]
+  },
+  {
+    "company": "CityMD Urgent Care",
+    "logo": "cmd",
+    "start": "October 2012",
+    "end": "December 2012",
+    "location": "Manhattan, NY",
+    "position": "Patient Care Representative",
+    "keyPoints": [
+      "Handled registration and discharge of patients to ensure they felt <mark>welcome and prioritized.<mark>",
+      "Coordinated with insurance companies for <mark>optimal patient healthcare<mark>.",
+      "Maintained a <mark>safe and sanitary<mark> work environment for patients and co-workers."
+    ]
+  }
+]

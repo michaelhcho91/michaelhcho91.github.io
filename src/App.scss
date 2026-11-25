@@ -1,0 +1,52 @@
+@use "styles/breakpoints.scss";
+@use "styles/Header.scss";
+@use "./styles/SkillsSection.scss";
+@use "./styles/SkillIcon.scss";
+@use "./styles/WorkItem.scss";
+@use "./styles/School.scss";
+@use "./styles/IconLabel.scss";
+@use "./styles/Logo.scss";
+@use "./styles/Item.scss";
+@use "./styles/Extra.scss";
+@use "./styles/Modal.scss";
+@use "./styles/CodeSnippet.scss";
+
+.App {
+  background: #304352;
+  opacity: 0.9;
+
+  h1 {
+    color: #e44c65;
+
+    @include breakpoints.for-sm {
+      text-align: center;
+    }
+  }
+
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0 15px;
+  }
+
+  mark {
+    --color1: #e44c65;
+    --color2: #e44c65;
+    --bg-height: 20%;
+
+    all: unset;
+    background-image: linear-gradient(var(--color1), var(--color2));
+    background-position: 0 100%;
+    background-repeat: no-repeat;
+    background-size: 0 var(--bg-height);
+    animation: highlight 2s 1 ease-out;
+    animation-fill-mode: forwards;
+    animation-play-state: paused;
+  }
+
+  @keyframes highlight {
+    to {
+      background-size: 100% var(--bg-height);
+    }
+  }
+} // .App
