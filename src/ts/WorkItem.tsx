@@ -1,6 +1,5 @@
 import Logo from "./Logo";
 import IconLabel from "./IconLabel";
-import KeyPoint from "./KeyPoint";
 
 export type WorkItemType = {
   company: string;
@@ -29,7 +28,7 @@ const WorkItem = ({ item }: { item: WorkItemType }) => {
 
       <ul className="key-points">
         {keyPoints.map((point, idx) => {
-          return <KeyPoint key={idx + point[idx]} point={point} />;
+          return <li key={idx + point[idx]}>{point}</li>;
         })}
       </ul>
     </li>

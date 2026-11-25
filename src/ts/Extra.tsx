@@ -1,6 +1,5 @@
 import Logo from "./Logo";
 import IconLabel from "./IconLabel";
-import KeyPoint from "./KeyPoint";
 
 type ExtraType = {
   name: string;
@@ -27,7 +26,7 @@ const Extra = ({ item }: { item: ExtraType }) => {
 
       <ul className="key-points">
         {keyPoints.map((point, idx) => {
-          return <KeyPoint key={idx + point[idx]} point={point} />;
+          return <li key={idx + point[idx]}>{point}</li>;
         })}
       </ul>
     </li>
