@@ -12,10 +12,19 @@ const Header = () => {
       attributes.target = "_blank";
     }
 
+    // todo: use font awesome
+    let iconEl = <i className={`fa fa-${icon}`} />;
+    if (icon === "linkedin") {
+      iconEl = <i className="devicon-linkedin-plain" />;
+    }
+    if (icon === "github") {
+      iconEl = <i className="devicon-github-original" />;
+    }
+
     return (
       <a {...attributes}>
         {label}
-        <i className={`fa fa-${icon}`} />
+        {iconEl}
       </a>
     );
   };
